@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .grid{
+    display: inline-grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+  }
+  
+  section {
+    padding: 2em;
+    margin: 1em;
+  }
+  
+  #green {
+    background-color: #8ffda7;
+    margin-top: 0%;
+  }
+  
+  #orange {
+    background-color: #ffc788;
+    width: 700px;
+    height: 50px;
+  }
+  
+  #yellow {
+    background-color: #ffff92;
+  }
+  
+  #red {
+    background-color: #ff919c;
+  }
+  
+  #blue {
+    display: inline-grid;
+    background-color: #98d2ff;
+    width: 40%;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    background-color: white;
+    padding: 1em;
+    display: block;
+    margin: 1em;
+  }
+  
+  /* Quando ingrandisco il blue mi si crea lo spazio facendo scendere l'arancione ancora più giù */
