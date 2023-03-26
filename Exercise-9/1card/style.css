@@ -1,0 +1,76 @@
+.card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: rgb(225, 225, 225);
+}
+
+div {
+    display: inline-block;
+}
+
+#user {
+    height: 30px;
+    width: 30px;
+  
+}
+
+h5 {
+    margin-top: 0%;
+    color: rgb(255, 243, 243);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.card-content a {
+    display: inline-block;
+    background-color: transparent;
+    color: rgb(10, 70, 107);
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .card img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .card img {
+        width: 100%;
+    }
+
+    .info h2 {
+        font-size: 20px;
+    }
+
+    .info .date {
+        font-size: 12px;
+    }
+
+    .info .description {
+        font-size: 16px;
+    }
+}
