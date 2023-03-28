@@ -1,0 +1,105 @@
+main {
+    display: flex;
+    background-color: rgb(54, 53, 53);
+    align-items: center;
+}
+
+.navbar {
+    color: white;
+    font-size: 25px;
+}
+
+ul {
+    display: inline-block;
+    padding: 5px 20px;
+
+
+}
+
+li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+form {
+    display: inline;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+
+}
+
+.second-link {
+    color: rgb(167, 166, 166);
+    text-decoration: none;
+}
+
+#Dropdown {
+    color: rgb(167, 166, 166);
+}
+
+#menu-drop {
+    color: rgb(167, 166, 166);
+}
+
+#button {
+    background-color: transparent;
+    color: rgb(167, 166, 166);
+    margin-right: 30px;
+}
+
+#search {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#buttonsearch {
+    color: rgb(28, 118, 28);
+    background-color: transparent;
+    border: solid 1px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+
+#buttonsearch:hover {
+    color: white;
+    background: green;
+    transition: all 0.3s ease;
+}
+
+.hamburger{
+    display: none;
+ }
+ 
+
+@media screen and (max-width: 768px) {
+
+    .exercise ul:not(.navbar),
+    .buttonsearch {
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+
+}
+
+.exercise {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.exercise .buttonsearch {
+    display: none;
+}
+
+
+    
