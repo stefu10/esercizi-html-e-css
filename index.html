@@ -1,108 +1,86 @@
 <!DOCTYPE html>
+
 <head>
- 
-    <title>Tabella</title>
-    <meta property="og:title" content="Tabella"/>
-<meta property="og:type" content="website"
-<meta property="og:description" content="esercizio tabella"/>
-<meta property="og:author" content="stefano mazzarella"/>
+
+    <title>Registrazione</title>
+    <meta property="og:title" content="sito registrazione" />
+    <meta property="og:type" content="website" <meta property="og:description" content="sito per registrarsi" />
+    <meta property="og:author" content="stefano mazzarella" />
 </head>
+
 <body>
-    <table>
-        <thead>
-            <th colspan="2">Tabella</th>
-        <tr>
-            <th>Titolo</th>
-            <th>Cash entries</th>
-            <th>Cash outflows</th>
-         </tr>
-        </thead>
+    <form>
+        <Label for="email">E-mail</Label>
+        <input type="text" id="email" name="email" required>
 
-        <tbody>
+        <div>
+            <label for="password">password</label>
+            <input type="text" name="password" id="password" required>
+        </div>
 
-        <tr>
-            <td>Gennaio</td>
-            <td>10000</td>
-            <td>5000</td>
-        </tr>
+        <div>
+            <label for="first_name">first name</label>
+            <input type="text" name="first_name" id="first_name" required>
+        </div>
 
-        <tr>
-            <td>Febbraio</td>
-            <td>1789</td>
-            <td>523</td>
-        </tr>
+        <div>
+            <label for="last_name">last name</label>
+            <input type="text" name="last name" id="last_name" required>
+        </div>
 
-        <tr>
-            <td>Marzo</td>
-            <td>5000</td>
-            <td>2500</td>
-        </tr>
+        <div>
+            <label for="birthday">Date of birth</label>
+            <input type="date" name="birthday" id="birthday" required>
+        </div>
 
-        <tr>
-            <td>Aprile</td>
-            <td>850</td>
-            <td>250</td>
-        </tr>
+        <div>
+            <label for="telephone">Telephone number</label>
+            <input type="tel" name="telephne" id="telephone" required>
+        </div>
 
-        <tr>
-            <td>Maggio</td>
-            <td>50000</td>
-            <td>20000</td>
-        </tr>
+        <div>
+            <fieldset>
+                <legend>Select a plane</legend>
 
-        <tr>
-            <td>Giugno</td>
-            <td>2000</td>
-            <td>1500</td>
-        </tr>
+                <label for="free_plane">Free plane</label>
+                <input type="radio" name="plane" id="free_plane" value="free">
 
-        <tr>
-            <td>Luglio</td>
-            <td>25000</td>
-            <td>20000</td>
-        </tr>
+                <label for="premium_plane">premium plane</label>
+                <input type="radio" name="plane" id="premium_plane" value="Premium">
 
-        <tr>
-            <td>Agosto</td>
-            <td>8530</td>
-            <td>2460</td>
-        </tr>
+                <label for="pro_plane">Pro plane</label>
+                <input type="radio" name="plane" id="pro_plane" value="Pro" required>
 
-        <tr>
-            <td>Settembre</td>
-            <td>3000</td>
-            <td>2500</td>
-        </tr>
+            </fieldset>
+        </div>
+        <div>
+            <label for="credit_card">Credit card number</label>
+            <input type="text" name="credit_card" id="credit_card" maxlength="20" required>
+        </div>
 
-        <tr>
-            <td>Ottobre</td>
-            <td>3500</td>
-            <td>3000</td>
-        </tr>
+        <div>
+            <label for="cvc">cvc</label>
+            <input type="tel" name="cvc" id="cvc" maxlength="4" required>
+        </div>
 
-        <tr>
-            <td>Novembre</td>
-            <td>10000</td>
-            <td>5500</td>
-        </tr>
+        <div>
+            <label for="expiration">Expiration date</label>
+            <input type="date" name="expiration" id="expiration" required>
+        </div>
 
-        <tr>
-            <td>Dicembre</td>
-            <td>9500</td>
-            <td>7500</td>
-        </tr>
+        <div>
+            <label for="address">Billing address</label>
+            <input type="text" name="addressa" id="address" required>
+        </div>
 
-        <tfoot>
-            <tr>
-                <td>Somma Valori</td>
-                <td>129169</td>
-                <td>70733</td>
-            </tr>
-        </tfoot>
 
-          
+        <div>
+            <button>Submit</button>
+        </div>
 
-        </table>
-    
+
+    </form>
+
 </body>
+
 </html>
